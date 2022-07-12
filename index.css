@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(0, 90, 45);
+}
+h1 {
+  color: rgb(253, 186, 2);
+}
+p {
+  color: white;
+}
+button {
+  background-color: rgb(253, 186, 2);
+  color: rgb(0, 90, 45);
+  width: 200px;
+  padding: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 8px;
+}
+button:active {
+  box-shadow: 0 5px 15px rgb(0, 44, 17);
+  transform: translateX(2px) translateY(2px);
+}
